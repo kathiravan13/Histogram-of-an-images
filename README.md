@@ -24,8 +24,8 @@ The Histogram of gray scale image and color image is shown.
 ```python
 import cv2
 import matplotlib.pyplot as plt
-gray_image = cv2.imread('agray.jpg')
-color_image = cv2.imread('vcolor.jpg')
+gray_image = cv2.imread('photo1.jpeg')
+color_image = cv2.imread('photo2.jpeg')
 cv2.imshow("Gray image",gray_image)
 cv2.imshow("color image",color_image)
 cv2.waitKey(0)
@@ -67,16 +67,17 @@ plt.show()
 
 ## Output:
 ### Input Grayscale Image and Color Image
-![Screenshot 2024-09-28 105311](https://github.com/user-attachments/assets/b3fc969e-1931-4dce-9936-85715c7009ba)
+![image](https://github.com/user-attachments/assets/018aab6b-22b4-4ad7-970f-023ca4f921ab) 
 
-### Histogram of Grayscale Image and 
-![Screenshot 2024-09-28 105404](https://github.com/user-attachments/assets/0a04d475-64a3-4d40-b6ab-a58bbb5378ff)
 
-### Histogram ofany channel of Color Image
-![Screenshot 2024-09-28 105426](https://github.com/user-attachments/assets/fb3eec34-36f8-4aac-adbb-5815fb9fcdc2)
+### 
+### Histogram of Grayscale Image
+![Screenshot 2024-09-28 114102](https://github.com/user-attachments/assets/a3f7f15c-42bb-46cf-b22b-4721402e45f3)
+
 
 ### Histogram Equalization of Grayscale Image.
-![Screenshot 2024-09-28 105525](https://github.com/user-attachments/assets/39b67bf7-b6d8-489a-90a1-4bff2b56d2ce)
+![Screenshot 2024-09-28 114514](https://github.com/user-attachments/assets/74fdf5ad-4da1-46aa-9d5e-57a9913f1766)
+
 
 ## Result: 
 Thus the histogram for finding the frequency of pixels in an image with pixel values ranging from 0 to 255 is obtained. Also,histogram equalization is done for the gray scale image using OpenCV.
